@@ -153,6 +153,8 @@ body {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
+  .arrow:hover {
+    color: #ffffffa8; }
 
 .simple {
   background-color: #f6f9f9;
@@ -465,24 +467,26 @@ body {
           transform: translateX(-50%);
   width: 1140px;
   height: 550px;
-  background-image: url(./../img/work_1.png);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover; }
+  .modal-pportfolio .fas {
+    background-color: white;
+    width: 25px;
+    height: 21px; }
 
 .modal-close {
   position: absolute;
   right: 20px;
   width: 20px;
   height: 20px;
-  top: -10px;
+  top: -12px;
   color: red;
-  background-color: rgba(255, 255, 255, 0.5);
   cursor: pointer; }
 
 .modal-close:hover {
-  background-color: white; }
+  color: #b84c4c; }
 
 footer {
   background-color: #f6f9f9;
@@ -515,11 +519,13 @@ footer {
   float: right;
   height: 90px; }
   .socials a {
-    background-color: #15a4fa;
     height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
+    background-color: #15a4fa;
     color: #fff;
     -webkit-border-radius: 2px;
             border-radius: 2px; }
+    .socials a:hover {
+      background-color: #15a2fa7e; }
